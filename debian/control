@@ -1,0 +1,17 @@
+Source: golang-github-cavaliercoder-grab
+Section: devel
+Priority: optional
+Maintainer: Aron Xu <happyaron.xu@gmail.com>
+Build-Depends: debhelper (>= 10),
+               dh-golang,
+               golang-any,
+Standards-Version: 4.1.3
+Homepage: https://github.com/cavaliercoder/grab
+XS-Go-Import-Path: github.com/cavaliercoder/grab
+
+Package: golang-github-cavaliercoder-grab-dev
+Architecture: all
+Depends: ${shlibs:Depends},
+         ${misc:Depends},
+Description: download manager package for Go
+ download manager package for Go
